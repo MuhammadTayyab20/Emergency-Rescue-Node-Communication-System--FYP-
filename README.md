@@ -124,12 +124,10 @@ Emergency-Rescue-Node-Communication-System/
 │   ├── index.html                # Rescue monitoring dashboard
 │   ├── script.js                 # Supabase integration + map logic
 │   └── style.css
+│   └── schema.sql                # Supabase PostgreSQL schema
 │
 ├── android-app/
-│   └── EmergencySOS/             # Companion Android application
-│
-├── database/
-│   └── schema.sql                # Supabase PostgreSQL schema
+│   └── EmergencySOS/             # Companion Android application 
 │
 ├── docs/
 │   ├── Final_Report.pdf          # Complete FYP report
@@ -137,7 +135,6 @@ Emergency-Rescue-Node-Communication-System/
 │   ├── screenshots/              # Captive portal, dashboard, app
 │   └── architecture-diagrams/    # DFD, system architecture
 │
-├── LICENSE
 └── README.md
 ```
 
