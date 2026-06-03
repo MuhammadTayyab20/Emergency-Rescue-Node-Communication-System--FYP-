@@ -1,0 +1,7 @@
+{
+  "name": "Emergency Rescue Node Communication System",
+  "description": "An emergency response web application that helps users connect with nearby rescue nodes by sharing their location and providing quick access to helpline numbers and AI-powered emergency assistance.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
