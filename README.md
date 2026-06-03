@@ -107,33 +107,27 @@ ERNCS provides a completely **offline communication infrastructure**:
 ## 📂 Repository Structure
 
 ```
-Emergency-Rescue-Node-Communication-System/
+Emergency-Rescue-Node-Communication-System--FYP-/
+│
+├── Android-app/
+│   └── SOS-Emergency-App-main/        # Android companion app (Java/Kotlin)
+│
+├── Doc/
+│   ├── Final_Report.pdf               # Complete FYP report
+│   ├── hardware-photos/               # Photos of nodes, hardware
+│   ├── screenshots/                   # Captive portal, dashboard, app
+│   └── architecture-diagrams/         # DFD, system architecture
+│
+├── Website/
+│   └── emergency-rescue-node-communicati.../  # Rescue dashboard web app
 │
 ├── firmware/
-│   ├── EmergencyNode_1/          # Rescue node firmware
+│   ├── EmergencyNode_1/               # Rescue node firmware
 │   │   └── EmergencyNode_1.ino
-│   ├── EmergencyNode_2/          # Relay node firmware
+│   ├── EmergencyNode_2/               # Relay node firmware
 │   │   └── EmergencyNode_2.ino
-│   └── EmergencyNode_3_Gateway/  # Gateway firmware
+│   └── EmergencyNode_3_Gateway/       # Gateway node firmware
 │       └── EmergencyNode_3.ino
-│
-├── captive-portal/
-│   └── index.html                # SOS web page hosted on ESP32
-│
-├── dashboard/
-│   ├── index.html                # Rescue monitoring dashboard
-│   ├── script.js                 # Supabase integration + map logic
-│   └── style.css
-│   └── schema.sql                # Supabase PostgreSQL schema
-│
-├── android-app/
-│   └── EmergencySOS/             # Companion Android application 
-│
-├── docs/
-│   ├── Final_Report.pdf          # Complete FYP report
-│   ├── hardware-photos/          # Photos of nodes, hardware
-│   ├── screenshots/              # Captive portal, dashboard, app
-│   └── architecture-diagrams/    # DFD, system architecture
 │
 └── README.md
 ```
